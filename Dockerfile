@@ -1,5 +1,6 @@
 #FROM freeradius/freeradius-server:3.0.19-alpine
 FROM danielchucks/freeradius:0.1.3
+#FROM chrohrer/freeradius:0.5
 
 ARG RADIUSD_OPTIONS=sfxxl
 ARG RADIUSD_LOGFILE=stdout
